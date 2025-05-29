@@ -1,15 +1,15 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Narendar",
-  lastName: "Shaw",
+  firstName: "Anshika",
+  lastName: "Sahasra",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software developer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      I'm Anshika Sahasra, a Software developer at{" "}
       <Logo
         icon={false}
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
@@ -99,7 +99,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
+        Anshika Sahasra is a Kolkata-based Software developer with a passion for
         transforming complex challenges into simple, elegant design solutions.
         Her work spans digital interfaces, interactive experiences, and the
         convergence of design and technology.
@@ -113,7 +113,7 @@ const about = {
       {
         company: "FLY",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Senior Software developer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20%
@@ -137,7 +137,7 @@ const about = {
       {
         company: "Creativ3",
         timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        role: "Lead Developer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple
@@ -157,12 +157,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Kakatiya institute of technology",
         description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
@@ -171,9 +167,9 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Google",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to prototype in Google with Once UI with unnatural speed.</>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
